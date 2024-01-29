@@ -395,6 +395,13 @@ border-radius: 100px;
 }
 
 
+@media only screen and (max-width:575px){
+    .banner-content {
+       display: none;
+    }
+}
+
+
 
 
 
