@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
         integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css" />
 </head>
 
@@ -24,9 +25,13 @@
                     <div class="list-bar">
                         <a href="#"><i class="fas fa-bars"></i></a>
                     </div>
+                    <nav  class="nav-top">
+                        <div class="cross_toggle">
+                            <a href="#"><i class="fas fa-times"></i></a>
+                        </div>
                     <ul class="head-menu">
                         <li class="list-home">
-                            <a href="#">home></a>
+                            <a href="#">home<i class="fas fa-angle-down"></i></a>
                             <ul class="child-home child">
                                 <li><a href="#">homev1</a></li>
                                 <li><a href="#">homev2</a></li>
@@ -34,7 +39,7 @@
                             </ul>
                         </li>
                         <li class="list-home">
-                            <a href="#">shop></a>
+                            <a href="#">shop<i class="fas fa-angle-down"></i></a>
                             <ul class="child-shop child">
                                 <li><a href="#">homev1</a></li>
                                 <li><a href="#">homev2</a></li>
@@ -42,16 +47,17 @@
                             </ul>
                         </li>
                         <li class="list-home">
-                            <a href="#">page></a>
+                            <a href="#">page<i class="fas fa-angle-down"></i></a>
                             <ul class="child-page child">
                                 <li><a href="#">homev1</a></li>
                                 <li><a href="#">homev2</a></li>
                                 <li><a href="#">homev3</a></li>
                             </ul>
                         </li>
-                        <li><a href="#">blog</a></li>
-                        <li><a href="#">contact us</a></li>
+                        <li class="list-home"><a href="#">blog</a></li>
+                        <li class="list-home"><a href="#">contact us</a></li>
                     </ul>
+                </nav>
                 </div>
                 <div class="top-font-wrapper">
                     <ul class="top-font">
@@ -95,8 +101,8 @@
                         believe in the power...
                     </p>
                 </div>
-                <div class="slide-one-wrap">
-                <div class="pouler-img   slide-img">
+                <div class="slide-one-wrap ">
+                <div class="pouler-img   slide-img"data-aos="flip-left" data-aos-duration="3000">
                     <div class="product_img">
                         <img src="images/r1.jpg" alt="#" />
                         <div class="slid-font">
@@ -120,7 +126,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="pouler-img  slide-img">
+                <div class="pouler-img  slide-img"data-aos="flip-left" data-aos-duration="3000">
                     <div class="product_img">
                         <img src="images/r1.jpg" alt="#" />
                         <div class="slid-font">
@@ -144,7 +150,7 @@
                         </div>
                     </div>
                 </div>
-                    <div class="pouler-img  slide-img">
+                    <div class="pouler-img  slide-img"data-aos="flip-left" data-aos-duration="3000">
                         <div class="product_img">
                             <img src="images/r1.jpg" alt="#" />
                             <div class="slid-font">
@@ -186,7 +192,7 @@
                     around the eCommerce world
                 </p>
             </div>
-            <div class="card-img-wrapper">
+            <div class="card-img-wrapper"  data-aos="zoom-out-right" data-aos-duration="3000">
                 <div class="image-one card-img">
                     <img src="images/card1.jpg" alt="#" />
                     <p>dresses</p>
@@ -226,7 +232,7 @@
     <!-- SHOP BY CATEGORY   end -->
 
     <!-- border-black-saterted -->
-    <section class="border-black">
+    <section class="border-black" data-aos="zoom-out-up" data-aos-duration="3000">
         <div class="container">
             <div class="black-bord">
                 <div class="blac-forms">
@@ -259,7 +265,9 @@
                     <!--structure-->
 
                     <!--structure-->
-                    <div class="pouler-img">
+                    <div class="pouler-img" data-aos="flip-left"
+                    data-aos-easing="ease-out-cubic"
+                    data-aos-duration="2000">
                         <div class="product_img">
                             <img src="images/r1.jpg" alt="#" />
                             <div class="slid-font">
@@ -283,7 +291,9 @@
                             </div>
                         </div>
                     </div>
-                    <div class="pouler-img">
+                    <div class="pouler-img" data-aos="flip-left"
+                    data-aos-easing="ease-out-cubic"
+                    data-aos-duration="2000">
                         <div class="product_img">
                             <img src="images/r1.jpg" alt="#" />
                             <div class="slid-font">
@@ -307,7 +317,9 @@
                             </div>
                         </div>
                     </div>
-                    <div class="pouler-img">
+                    <div class="pouler-img" data-aos="flip-left"
+                    data-aos-easing="ease-out-cubic"
+                    data-aos-duration="2000">
                         <div class="product_img">
                             <img src="images/r1.jpg" alt="#" />
                             <div class="slid-font">
@@ -331,7 +343,9 @@
                             </div>
                         </div>
                     </div>
-                    <div class="pouler-img">
+                    <div class="pouler-img" data-aos="flip-left"
+                    data-aos-easing="ease-out-cubic"
+                    data-aos-duration="2000">
                         <div class="product_img">
                             <img src="images/r1.jpg" alt="#" />
                             <div class="slid-font">
@@ -391,17 +405,24 @@
     <section class="limited-top">
         <div class="container">
             <div class="limited-wrapper">
-                <div class="limited-img-left limt">
+                <div class="limited-img-left limt"data-aos="fade-right"
+                data-aos-offset="300"
+                data-aos-easing="ease-in-sine">
                     <img src="images/m1.png" alt="#" />
                 </div>
-                <div class="limited-content limt">
+                <div class="limited-content limt"data-aos="flip-left"
+                data-aos-easing="ease-out-cubic"
+                data-aos-duration="2000">
                     <h2>LIMITED OF FER: SAVE 30% ON CLOTH</h2>
                     <h4>Now Only $7 – Limited Time Only</h4>
                     <div class="slid-button">
                         <a href="#">shop now</a>
                     </div>
                 </div>
-                <div class="limited-img-left limt">
+                <div class="limited-img-left limt" data-aos="fade-left"
+                data-aos-offset="300"
+                data-aos-easing="ease-in-sine"
+                data-aos-duration="600">
                     <img src="images/m2.png" alt="#" />
                 </div>
             </div>
@@ -428,14 +449,15 @@
         </div>
     </section>
 
-    <section class="news-top">
+    <section class="news-top"data-aos="fade-up"
+    data-aos-anchor-placement="center-bottom" data-aos-duration="2000">>
         <div class="container">
             <div class="insights-contant">
                 <h2>NEWS & INSIGHTS</h2>
             </div>
             <div class="news-wrapper">
                 <div class="news-one news">
-                    <div class="news-img">
+                    <div class="news-img" data-aos="flip-right"data-aos-duration="1500">
                         <img src="images/blog-005.jpg" alt="#" />
                     </div>
                     <div class="news-content">
@@ -450,7 +472,7 @@
                     </div>
                 </div>
                 <div class="news-two news">
-                    <div class="news-img">
+                    <div class="news-img" data-aos="flip-right"data-aos-duration="1500">
                         <img src="images/blog-006.jpg" alt="#" />
                     </div>
                     <div class="news-content">
@@ -463,7 +485,7 @@
                     </div>
                 </div>
                 <div class="news-three news">
-                    <div class="news-img">
+                    <div class="news-img" data-aos="flip-right"data-aos-duration="1500">
                         <img src="images/blog-008.jpg" alt="#" />
                     </div>
                     <div class="news-content">
@@ -476,7 +498,7 @@
                     </div>
                 </div>
                 <div class="news-four news">
-                    <div class="news-img">
+                    <div class="news-img" data-aos="flip-right"data-aos-duration="1500">
                         <img src="images/blog-009.jpg" alt="#" />
                     </div>
                     <div class="news-content">
@@ -492,7 +514,7 @@
         </div>
     </section>
 
-    <footer class="top-blog">
+    <footer class="top-blog"data-aos="zoom-in-up"data-aos-duration="1500">
         <div class="container">
             <div class="blog-wrapper">
                 <div class="zana-blog footer">
@@ -583,6 +605,9 @@
             <p>© 2023 ZANNA All rights reserved. Designed by Novaworks</p>
         </div>
     </section>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="javascrip/script.js"></script>
 </body>
 
 </html>
