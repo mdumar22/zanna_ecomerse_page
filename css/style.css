@@ -282,7 +282,7 @@ a {
     width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100vh;
+    /* height: 100vh; */
     padding: 100px   0;
 
 }
